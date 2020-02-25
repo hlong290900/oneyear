@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+*{
+	margin:0;
+	padding:0;}
+
+.menu{
+	margin:0 auto;
+	opacity:0.5;
+	float:right;}
+.menu ul{
+	background-color:#F0F;
+	list-style-type:none;
+	display:block;
+	text-align:center;}
+.menu ul li{
+	display:inline-flex;
+	padding:15px 10px;
+	width:140px;}
+.sub{
+	display:none;
+	position:absolute;}
+.menu ul li:hover .sub{
+	display:inline-flex;
+	margin-top:30px;
+	margin-left:-10px;}
+.sub ul{
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;}
+.sub ul li{
+	width:140px;}
+.menu ul li:hover{
+	background:#666;
+	;}
+a{
+	text-decoration:none;}
+a:hover{
+	color:#F0F;}
+</style>
+</head>
+<body>
+<div class="menu">
+<ul>
+<li><a href="#">Tôi</a>
+<div class="sub">
+<ul>
+<li><a href="#">Tài Khoản</a></li>
+<li><a href="#">Cài Đặt</a></li>
+<li><a href="#">Đăng xuất</a></li> 
+</ul>
+</div>
+</li>
+</ul>	
+</div>
+<div>
+<div>
+<table border="1" background="../bg.png" bordercolor="#000000" >
+<form>
+<tr>
+<td>Tên đăng nhập:</td>
+<td> <input type="text" /> </td>
+</tr>
+<tr>
+<td> Mật khẩu:</td>
+<td> <input type="password" /> </td>
+</tr>
+<tr>
+<td colspan="2" align="center"> <input type="submit" /> </td>
+</tr>
+<tr>
+<td><span style="font-size:14px"><a href="#"> Đăng ký</a></span> </td>
+<td><span style="font-size:14px"><a href="#"> Quên mật khẩu?</a></span></td>
+</tr>
+</form>
+</table>
+</div>
+<div>
+<form>
+<textarea><legend>Updateting news</legend> </textarea>
+</form>
+</div>
+</body>
+</html>
